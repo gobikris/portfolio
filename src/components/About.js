@@ -7,12 +7,12 @@ export default function About() {
         <div className="container" name="about">
         <div className="row mt-5">
           <h1 className='text-warning fw-bold display-4 text-center mt-5'>About</h1>
-          <div className="col-lg-5 col-md-12 col-12 text-center mx-auto mt-5">
+          <div className="col-lg-5 col-md-12 col-12 text-center  mt-5">
           
-          <h5 className='mt-3 text-start get '>
-          I am passionate about building responsive and scalable Web applications with innovative design. 
-          I take into consideration the user experience while writing reusable and efficient code. Having experience of both front-end and back-end technologies. 
-          Learning new things and grow my skill
+          <h5 className='mt-3 get'>
+            I am passionate about building responsive and scalable Web applications with innovative design. 
+            I take into consideration the user experience while writing reusable and efficient code. Having experience of both front-end and back-end technologies. 
+            Learning new things and grow my skill
           </h5><br />
          
          
