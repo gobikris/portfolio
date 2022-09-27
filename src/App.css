@@ -20,6 +20,7 @@ body{
 .get{
   word-spacing: 8px;
   color:whitesmoke;
+  margin-left: 20px;
 }
 .aws{
   color: #ff9b01;
