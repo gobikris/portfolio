@@ -10,7 +10,7 @@ export default function Home() {
         <div className="row">
           
           <div className="col-lg-5 col-md-12 col-12 text-center mx-auto mt-5">
-          <h4 className="fw-bold text-danger mt-5 ">Hi 👋 , My name is </h4><h2 className='name ' >Gobikrishna <br /> I'm a full stack developer</h2>
+          <h4 className="fw-bold text-light mt-5 ">Hi 👋 , I ' m </h4><h2 className='name typewriter' >Gobikrishna <br /></h2>
           <br />
           <h5 className='mt-3 text-start get '>
             A passionate <strong className='signature1'>Full Stack Developer </strong> in (MERN)

@@ -73,3 +73,48 @@ body{
     transform: rotate(360deg)
   }
 }
+
+
+
+.typewriter {
+
+  width: 0ch;
+  color: rgb(248, 99, 124);
+  float: left;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 25px;
+  margin-left:150px;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 5px;
+  animation: typing 5s steps(22) 1s infinite alternate;
+}
+.typewriter span{
+color:red;}
+
+#crow {
+  float: left;
+
+color: white;
+  font-family: consolas;
+  font-weight:bold;
+  font-size: 5px;
+  animation: crow 0.5s linear 0s infinite;
+}
+@keyframes typing {
+  from {
+      width: 0ch;
+  }
+  to {
+      width: 18ch;
+  }
+}
+@keyframes crow {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
