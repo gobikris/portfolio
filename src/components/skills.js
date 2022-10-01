@@ -20,45 +20,45 @@ import {SiAmazonaws, SiExpress, SiGit, SiHeroku, SiInsomnia, SiMaterialui, SiMon
 
           <div className="d-flex gap-3 flex-wrap ">
 
-          <div className="d-flex gap-5 mx-auto hand">
-            <h4 className='text-light '><AiFillHtml5 className='text-danger' size={50} /><br />Html</h4>            
-            <h4 className='text-light '><ImCss3 className='text-primary' size={50} /><br />Css</h4>
+          <div className="d-flex gap-5 mx-auto ">
+            <h4 className='text-light element'><AiFillHtml5 className='text-danger' size={50} /><br />Html</h4>            
+            <h4 className='text-light element'><ImCss3 className='text-primary' size={50} /><br />Css</h4>
           </div>
             
-          <div className="d-flex gap-5 mx-auto hand">
-          <h4 className='text-light text-center '><TbBrandJavascript className='text-warning' size={50} /><br />Javascript</h4>
-           <h4 className='text-light text-center'><FaBootstrap className=' text-primary ' size={50} /><br />Bootstrap</h4>
+          <div className="d-flex gap-5 mx-auto  ">
+          <h4 className='text-light text-center element'><TbBrandJavascript className='text-warning' size={50} /><br />Javascript</h4>
+           <h4 className='text-light text-center element'><FaBootstrap className=' text-primary ' size={50} /><br />Bootstrap</h4>
           </div>  
            
-          <div className="d-flex gap-5 mx-auto hand">
-          <h4 className='text-light text-center'><FaReact className=' text-info ' size={50} /><br />React</h4>
-           <h4 className='text-light text-center'><FaNodeJs className=' text-success ' size={50} /><br />Node.Js</h4>
+          <div className="d-flex gap-5 mx-auto ">
+          <h4 className='text-light text-center element'><FaReact className=' text-info ' size={50} /><br />React</h4>
+           <h4 className='text-light text-center element'><FaNodeJs className=' text-success ' size={50} /><br />Node.Js</h4>
           </div>
            
-           <div className="d-flex gap-5 mx-auto hand">
-           <h4 className='text-light text-center'><SiMongodb className=' text-success ' size={50} /><br />Mongodb</h4>
-           <h4 className='text-light text-center'><SiGit className=' text-danger ' size={50} /><br />Git</h4>
+           <div className="d-flex gap-5 mx-auto ">
+           <h4 className='text-light text-center element'><SiMongodb className=' text-success ' size={50} /><br />Mongodb</h4>
+           <h4 className='text-light text-center element'><SiGit className=' text-danger ' size={50} /><br />Git</h4>
            </div>
 
-           <div className="d-flex gap-5 mx-auto hand">
-              <h4 className='text-light text-center'><SiInsomnia className=' text-primary ' size={50} /><br />Insomnia</h4>
-              <h4 className='text-light text-center'><SiTailwindcss className=' text-info ' size={50} /><br />Tailwind</h4>
+           <div className="d-flex gap-5 mx-auto ">
+              <h4 className='text-light text-center element'><SiInsomnia className=' text-primary ' size={50} /><br />Insomnia</h4>
+              <h4 className='text-light text-center element'><SiTailwindcss className=' text-info ' size={50} /><br />Tailwind</h4>
             </div>
 
-            <div className="d-flex gap-5 mx-auto hand">
-              <h4 className='text-light text-center'><SiMaterialui className=' text-primary ' size={50} /><br />Materialui</h4>
-              <h4 className='text-light text-center'><SiRedux className=' text-primary ' size={50} /><br />Redux</h4>
+            <div className="d-flex gap-5 mx-auto ">
+              <h4 className='text-light text-center element'><SiMaterialui className=' text-primary ' size={50} /><br />Materialui</h4>
+              <h4 className='text-light text-center element'><SiRedux className=' text-primary ' size={50} /><br />Redux</h4>
            </div>
 
-           <div className="d-flex gap-5 mx-auto hand">
-               <h4 className='text-light text-center'><SiExpress className=' text-secondary ' size={50} /><br />Express.js</h4>            
-               <h3 className='text-light text-center '><SiAmazonaws className='aws  ' size={50} /><br />Aws</h3>
+           <div className="d-flex gap-5 mx-auto ">
+               <h4 className='text-light text-center element'><SiExpress className=' text-secondary ' size={50} /><br />Express.js</h4>            
+               <h3 className='text-light text-center element'><SiAmazonaws className='aws  ' size={50} /><br />Aws</h3>
            </div>
 
-           <div className="d-flex gap-5 mx-auto mb-5 hand">
-           <h4 className='text-light text-center '><SiHeroku className=' text-primary ' size={50} /><br />Heroku</h4>
-           <h4 className='text-light text-center'><SiMysql className=' text-primary ' size={50} /><br />My Sql</h4>
-           <h3 className='text-light text-center '><SiNetlify className='text-info ' size={50} /><br />Netlify</h3>
+           <div className="d-flex gap-5 mx-auto mb-5 ">
+           <h4 className='text-light text-center element'><SiHeroku className=' text-primary ' size={50} /><br />Heroku</h4>
+           <h4 className='text-light text-center element'><SiMysql className=' text-primary ' size={50} /><br />My Sql</h4>
+           <h3 className='text-light text-center element'><SiNetlify className='text-info ' size={50} /><br />Netlify</h3>
            </div>
            
            

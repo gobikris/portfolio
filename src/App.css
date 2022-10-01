@@ -11,6 +11,7 @@ body{
   font-size: 50px;
   
 }
+
 .signature1{
   font-family: 'Great Vibes', sans-serif;
   font-size: 35px;
@@ -56,4 +57,19 @@ body{
 .rose{
   color: gainsboro;
   
+}
+.element{
+  animation: rotate 4s infinite;
+  /* background-color:#eee; */
+  /* width: 200px;
+  height: 200px; */
+}
+
+@keyframes rotate {
+  0% {
+    /* transform: rotate(-35deg) */
+  }
+  100% {
+    transform: rotate(360deg)
+  }
 }

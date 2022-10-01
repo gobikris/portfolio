@@ -26,7 +26,7 @@ export default function Project() {
 
           <div className="col-lg-5 col-md-12 col-12 text-center mt-3 mx-auto mb-5">
               {/* <img className='img-fluid ' src="https://c.tenor.com/2uyENRmiUt0AAAAC/coding.gif" alt="" /> */}
-              <img className='img-fluid mt-5 rounded-3 mb-5 border border-5' src={img1} alt="" />
+              <img className='img-fluid mt-5 rounded-3 mb-5 border border-5 hand' src={img1} alt="" />
           </div>
         </div>
       </div>

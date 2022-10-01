@@ -1,30 +1,48 @@
+
+import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs"
+
 import React from 'react'
-import { BsFacebook, BsFillTelephoneForwardFill, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs"
-import { SiMinutemailer } from "react-icons/si"
+
 export default function Contact() {
   return (
     <div>
-      <div className="container" name="contact">
-        <h1 className='fw-bold text-center text-warning display-4 mt-5'>Contact</h1>
+
+<div className="container" name="contact">
         <div className="row">
-            <div className="col">
-            <div className='text-center mt-5 d-flex gap-2 flex-column'>
-            <p><BsFillTelephoneForwardFill className='text-primary'  size={35}/>  <span className='text-light'>+91 730506446</span></p> <br />
-            <p><SiMinutemailer className='text-info' size={35} /> <span className='text-light'>gobikrishna005@gmail.com</span> </p>
-            <h1 className='text-danger'>Social</h1>
-            <div className='text-center mb-5 d-flex gap-3 justify-content-center'>
-                
-                <a target="_blank" href='https://linkedin.com/in/gobi-krishna-ab50b811a' className='btn btn-primary'><BsLinkedin size={35}/></a>
-                <a target="_blank" href='https://github.com/gobikris' className='btn btn-secondary '><BsGithub size={35} /></a>
-                <a target="_blank" href='https://www.instagram.com/gobikrishna_srinivas/' className='btn btn-danger'><BsInstagram size={35} /></a>
-                <a target="_blank" href='https://www.facebook.com/gobikrishna022/' className='btn btn-primary'><BsFacebook size={35} /></a>
-                
-                </div>
+          <h1 className='text-warning fw-bold display-4 text-center'>Contact Me</h1>
+          <div className="col-lg-5 col-md-12 col-sm-12 text-center mx-auto mt-5">
+          
+          <div className='d-flex flex-column gap-4 mt-4 w-75 mx-auto shadow-lg bg-light p-3 rounded-3'>
+            <input type="Email" className='form-control fw-bold ' placeholder='Email'/>
+            <input type="text" className='form-control fw-bold ' placeholder='Your Name' />
+            <input type="text" className='form-control fw-bold ' placeholder='Subject' />
+            <textarea  className='form-control fw-bold ' cols="43" rows="3" placeholder='Write Something...'></textarea>
+            <button className="btn btn-success fw-bold">SEND</button>
             </div>
+         
+
+          </div>
+
+          <div className="col-lg-5 col-md-12 col-12 text-center mt-5 mx-auto mb-5">
+          <div className='text-center mb-5 d-flex  gap-3 justify-content-center mt-5'>
+                
+            <a target="_blank" href='https://linkedin.com/in/gobi-krishna-ab50b811a' className='btn btn-primary element hand'><BsLinkedin size={35}/></a>
+            <a target="_blank" href='https://github.com/gobikris' className='btn btn-secondary hand element'><BsGithub size={35} /></a>
+            <a target="_blank" href='https://www.instagram.com/gobikrishna_srinivas/' className='btn btn-danger element hand'><BsInstagram size={35} /></a>
+            <a target="_blank" href='https://www.facebook.com/gobikrishna022/' className='btn btn-primary element hand'><BsFacebook size={35} /></a>
+                                
             </div>
-            
+            <div className="text-light ">
+              <h4><span><img className="img-fluid rounded-4 element mb-3" style={{width:"6rem"}} src="https://i.gifer.com/Anm7.gif" alt="" /></span> gobikrishna005@gmail.com</h4>
+              <h4><span className="mt-2"><img className="img-fluid rounded-4 element mt-2" style={{width:"6rem"}} src="https://i.pinimg.com/originals/20/b6/86/20b6860e2f5560e6fae086a51051bdbc.gif" alt="" /></span> +91 7305026446</h4>
+            </div>
+          </div>
         </div>
       </div>
+
+
+
     </div>
-  );
+  )
 }
+

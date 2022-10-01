@@ -10,7 +10,7 @@ export default function Home() {
         <div className="row">
           
           <div className="col-lg-5 col-md-12 col-12 text-center mx-auto mt-5">
-          <h4 className="fw-bold text-danger mt-5 ">Hi 👋 , My name is </h4><h2 className='name'>Gobikrishna <br /> I'm a full stack developer</h2>
+          <h4 className="fw-bold text-danger mt-5 ">Hi 👋 , My name is </h4><h2 className='name ' >Gobikrishna <br /> I'm a full stack developer</h2>
           <br />
           <h5 className='mt-3 text-start get '>
             A passionate <strong className='signature1'>Full Stack Developer </strong> in (MERN)
@@ -18,10 +18,10 @@ export default function Home() {
             with <strong>JavaScript / React.js / Node.js / Express.js </strong>
             and also some other js libraries and framework.
           </h5><br />
-          <div className='d-flex gap-3'>
-          <a target="_blank" href='https://linkedin.com/in/gobi-krishna-ab50b811a'><AiOutlineLinkedin  size={50}className='text-primary hand'/></a>
-          <a target="_blank" href='https://github.com/gobikris'><BsGithub size={50} className='text-secondary hand'/></a>
-          <a target="_blank" href='https://www.instagram.com/gobikrishna_srinivas/'><BsInstagram size={50} className='text-danger hand'/></a>
+          <div className='d-flex gap-3 '>
+          <a target="_blank" href='https://linkedin.com/in/gobi-krishna-ab50b811a'><AiOutlineLinkedin  size={50}className='text-primary hand element'/></a>
+          <a target="_blank" href='https://github.com/gobikris'><BsGithub size={50} className='text-secondary hand element'/></a>
+          <a target="_blank" href='https://www.instagram.com/gobikrishna_srinivas/'><BsInstagram size={50} className='text-danger hand element'/></a>
           
           </div>
           <div className='mt-3'>
