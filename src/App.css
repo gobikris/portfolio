@@ -84,11 +84,11 @@ body{
   font-family: sans-serif;
   font-weight:bold;
   font-size: 25px;
-  margin-left:150px;
+  margin-left:95px;
   overflow: hidden;
   white-space: nowrap;
   letter-spacing: 5px;
-  animation: typing 5s steps(22) 1s infinite alternate;
+  animation: typing 5s steps(50) 1s infinite alternate;
 }
 .typewriter span{
 color:red;}

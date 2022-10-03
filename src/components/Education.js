@@ -180,7 +180,7 @@ export default function Education() {
   </div>
 
 {/* dote */}
-  <div class="accordion-item">
+  {/* <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
         Direction of Technical Education
@@ -195,7 +195,7 @@ export default function Education() {
             </p>
       </div>
     </div>
-  </div>
+  </div> */}
 
 {/* school */}
   <div class="accordion-item">
