@@ -10,9 +10,9 @@ export default function About() {
           <div className="col-lg-5 col-md-12 col-12 text-center  mt-5">
           
           <h5 className='mt-3 get'>
-            I am passionate about building responsive and scalable Web applications with innovative design. 
+            I am passionate about build a responsive and scalable Web applications with innovative design. 
             I take into consideration the user experience while writing reusable and efficient code. Having experience of both front-end and back-end technologies. 
-            Learning new things and grow my skill
+            Learn a new things and grow my Knowledge
           </h5><br />
          
          
