@@ -25,7 +25,7 @@ export default function Home() {
           
           </div>
           <div className='mt-3'>
-          <a target="_blank" href="https://drive.google.com/file/d/10M-It74MxyncbvWCvjwzCp7igdY3F7N8/view?usp=sharing " className='btn btn-danger fw-bold  hand resume'>Resume </a>
+          <a target="_blank" href="https://drive.google.com/file/d/1R2to917uuWD4TGJLi1JC_dAhuOUcC62z/view " className='btn btn-danger fw-bold  hand resume'>Resume </a>
           </div>
           </div>
 
